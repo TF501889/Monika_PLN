@@ -1,56 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
 
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" href="images/Logo1.png" alt="profile picture">
-  <title>pierwotna moc</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/yin-yang_1280.jpg" alt="profile picture" style="border-radius: 50%;">
+
+
+  <title>
+    pierwotna moc
+  </title>
+  <link rel="stylesheet" href="flexbox.css">
+
+
+  <style>
+  </style>
+
 </head>
 
-<!-- comments -->
 
-<body>
 
-  <div style="background-color: rgb(179,73,107); display: flex; align-items: center; justify-content: center;">
-    <img src="images/Monika-French-white-high-res.png" width="150px" alt="picture of logo">
+<!-- header logo and text-->
+
+<body class="body-margin">
+  <div class="row-header">
+    <div class="col-fixed">
+      <img src="yin-yang_1280.jpg" alt="Ying Yang Image" width="200px">
+    </div>
+    <div class="col-flex">
+      <h1 class="h1-header">pierwotna moc</h1>
+    </div>
+  </div>
+
+<!-- nav bar-->
+
+<div class="row-header">
+  <div class="body-text">
+
+    <nav class="navbar">
+      <ul>
+          <li><a href="index.html">O mnie</a></li>
+          <li><a href="page2.html">Rozwiązania karmiczne</a></li>
+          <li><a href="page3.html">Ustawienia rodowe</a></li>
+          <li><a href="page4.html">Wewnętrzne dziecko</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li style="background-color: rgb(110, 83, 114);"><a href="review.html">Opinie</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+  </nav>
+
+  </div>
+</div>
+
+
+
+  <!-- placeholder text-->
+  <!-- remove ???? id="image_left" -->
+  
+  <!--
+  <div class="body-text">
+
+    
+
+    
+
+
+
+</div>
+
+
+<div class="row-header">
+  <div class="body-text">
+
+    
 
   </div>
 
 
+</div>
 
-  <nav class="navbar">
-    <ul>
-      <li><a href="index.html">O mnie</a></li>
-      <li><a href="about.html">Rozwiązania karmiczne</a></li>
-      <li><a href="about2.html">Ustawienia rodowe</a></li>
-      <li><a href="about3.html">Wewnętrzne dziecko</a></li>
-      <li><a href="media.html">Media</a></li>
-      <li><a href="review.html">Opinie</a></li>
-      <li><a href="contact.html">Kontakt</a></li>
-    </ul>
-  </nav>
+-->
 
-  <main>
-
-
-
-
-
-    <h3>Opinie</h3>
-
-    <div
-      style="background-color: rgb(255, 255, 255); display: flex; align-items: center; justify-content: center; padding-bottom: 8px;">
-      <img src="images/review_app.jpg" width="150px" height="100px" alt="picture of under construction">
-      <br>
+<!--
+<body class="body-margin">
+  <div class="row-header">
+        <div class="col-fixed-body">
+      <img src="images/Moni_Portrait_Winter_crop.jpeg" alt="Moni Portrait Image" width="200px" style="padding: 16px 2px 2px 2px;">
     </div>
+    <div class="col-flex-body">
 
-    <p style="clear: both;"></p>
 
+
+    </div>
+  </div>
+
+-->
+
+  <div style="max-width: 1000px; min-height: 250px; ; background-color: lavender;">
+    <br>
+    <h3>Opinie</h3>
+    <div style="float: left; margin-right: 16px;">
+      <img src="images/review_app.jpg" alt="Review App Image" style="width: 200px;padding: 0 0px 0 4px ;">
+    </div style="clear: both;">
 
     <p><strong>Beata - 16.10.2023</strong></p>
 
@@ -71,7 +124,7 @@
       - widzę że ja się zmieniam, a wraz ze mną moje otoczenie
       - otrzymuje opiekę i wsparcie przez cały proces dzięki temu czuję się bezpiecznie.</p>
 
-    </div>
+  
 
     <br>
     <p><strong>Jola - 23.11.2023</strong></p>
@@ -106,26 +159,39 @@
       Jestem bardzo wdzięczna za to, że Monika pojawiła się na mojej drodze,
       dzięki niej udało mi się poruszyć do zmiany te fragmenty mojego życia,
       które wiele lat pozostawały w stagnacji.</p>
-    <br>
 
-  </main>
+           <br>
+      
 
-</body>
-
-<!-- footer of webpage -->
-
-<footer style="background-color: rgb(160,197,147);">
-
-  <div style="padding-left: 20px;padding-top: 8px;padding-bottom: 8px;">
-
-    <p style="margin: 2px; font-size: 80%;">Autor: Monika French</p>
-
-    <p style="margin: 2px; font-size: 80%;">&copy; Prawa autorskie zastrzeżone</p>
-
-    <p style="margin: 2px; font-size: 80%;"><a href="mailto:Monika.French@outlook.com">Monika.French@outlook.com</a></p>
+      
 
   </div>
 
+
+
+<!--  footer section-->
+<div class="row-header">
+  <div class="col-footer">
+    <p style="margin: 8px 2px 2px 8px; font-size: 80%;">Autor: Monika French</p>
+    
+    <p style="margin: 2px 2px 2px 8px; font-size: 80%;">&copy; Prawa autorskie zastrzeżone</p>
+   
+   <p style="margin: 2px 2px 8px 8px; font-size: 80%;"><a href="mailto:Monika.French@outlook.com">Monika.French@outlook.com</a></p> 
+  </div>
+</div>
+
+
+
+
+
+</body>
+
+
+<footer>
+
+
+
 </footer>
+
 
 </html>

@@ -1,0 +1,169 @@
+.row-header {
+  display: flex;
+  justify-content: left;
+
+  
+ 
+}
+
+.col-flex {
+  flex: 1;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: darkgoldenrod;    
+  /*background-color: rgb(76,98,137);*/
+  background-color: rgb(103,61,109);
+}
+
+.col-fixed {
+  flex: 1;
+  min-width: 200px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*background-color: rgb(76,98,137);*/
+  background-color: rgb(103,61,109);
+}
+
+
+.body-margin {
+  margin-left: 80px;
+  margin-right: 80px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+}
+
+@media (max-width: 520px) {
+  .body-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+
+
+.h1-header{
+  font-size: 200%;
+}
+
+
+.col-footer {
+  flex: 1;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: rgb(83, 83, 83);    
+  /*background-color: rgb(76,98,137);*/
+  background-color: rgb(163, 166, 168);
+}
+
+.body-text {
+  flex: 1;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+ 
+  background-color: lavender;
+
+}
+
+p {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin:8px 0px 6px 0px
+  
+}
+
+h4 {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin:8px 0px 4px 0px
+  
+}
+
+h3 {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin:8px 0px 16px 0px
+  
+}
+
+
+
+/* nav bar */
+
+.navbar ul{
+ list-style-type: none;
+  background-color: rgb(103,61,109);
+  padding: 0px;
+  padding-left: 10px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: rgb(113, 92, 116);
+}
+
+.navbar li{
+  float: left;
+}
+
+
+/* image formatting */
+
+#image_left{
+  float:left;
+  margin-right: 10px;
+}
+
+#image_right{
+  float:right;
+  margin-left: 10px;
+}
+
+
+/* body column formatting */
+
+.col-flex-body {
+  flex: 1;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: left;
+   
+  /*background-color: rgb(76,98,137);*/
+  background-color: lavender;
+}
+
+
+.col-fixed-body {
+  flex: 1;
+  min-width: 250px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  /*background-color: rgb(76,98,137);*/
+  background-color: lavender;
+}
