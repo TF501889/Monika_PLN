@@ -48,6 +48,7 @@
 
 .h1-header{
   font-size: 300%;
+  text-align: center;
 }
 
 @media (max-width: 520px) {
