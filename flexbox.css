@@ -53,6 +53,7 @@
 @media (max-width: 520px) {
   .h1-header {
     font-size: 180%;
+    text-align: center;
     
   }
 }
