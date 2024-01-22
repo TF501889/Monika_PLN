@@ -172,3 +172,45 @@ font-size: 5dvw;
   margin-right: 8px;
   margin-left: 8px;
 }
+
+
+/* side by side images */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-container img {
+  width: calc(50% - 10px);
+  margin: 10px;
+  }
+
+/* picture scale between devices */
+
+  #right {
+    width: 300px; 
+    padding: 8px 8px 8px 8px;
+  }
+
+
+@media (max-width: 520px) {
+#right {
+  width: 180px; 
+    padding: 4px 4px 4px 4px;
+}
+}
+
+#left {
+    width: 300px; 
+    padding: 8px 8px 8px 8px;
+  }
+
+
+@media (max-width: 520px) {
+#left {
+  width: 180px; 
+    padding: 4px 4px 4px 4px;
+}
+}
