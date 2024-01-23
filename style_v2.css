@@ -135,6 +135,7 @@ background-color: rgb(163, 166, 168);
   row-gap: 16px;
   margin-left: 8px;
   margin-right: 8px;
+  
 }
 
 @media (max-width: 520px) {
@@ -156,11 +157,35 @@ font-size: 5dvw;
 .contact-grid2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 16px;
+  column-gap: 10%;
   row-gap: 16px;
-  margin-left: 8px;
-  margin-right: 8px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  
 }
+
+@media (max-width: 520px) {
+  .contact-grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+  }
+  }
+
+
+.contact-boxes{
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  border: 4px solid rgb(103,61,109);
+  background-color: white;
+
+  }
+
 
 
 #img1{
