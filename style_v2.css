@@ -280,6 +280,27 @@ font-size: 5dvw;
 }
 
 
+.one-image-grid-wide {
+  display: grid;
+  grid-template-columns: 2fr 10fr 2fr;
+  column-gap: 0px;
+  row-gap: 16px;
+}
+
+
+@media (max-width: 800px) {
+  .one-image-grid-wide {
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+    column-gap: 0px;
+    row-gap: 16px;
+  }
+  }
+
+
+
+
+
 .contact-text{
   font-size: 4vw;
   display:flex;
@@ -291,3 +312,23 @@ font-size: 5dvw;
 
   font-family: 'Hind Madurai', sans-serif;
 }
+
+
+
+.mob-tel-style{
+  display: grid;
+  grid-template-columns:  1fr 60px 20fr;
+}
+
+
+#handy{
+  width: 120px
+}
+
+@media (max-width: 800px) {
+  #handy {
+    width: 60px;
+  }
+  }
+
+
